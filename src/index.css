@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: white;
+}
+
+.menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):focus),
+  .menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):hover) {
+    background-color: #edcb9a;
+    --tw-bg-opacity: 0.1;
+}
+.menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):focus),
+  .menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):hover) {
+    background-color: #edcb9a;
+    --tw-bg-opacity: 0.1;
+}
+.menu :where(li:not(.menu-title):not(:empty)) > :where(:not(ul).active),
+  .menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):active) {
+    --tw-bg-opacity: 1;
+    background-color: #edcb9a;
+    --tw-text-opacity: 1;
+    color: hsl(var(--pc) / var(--tw-text-opacity));
+}
+.menu :where(li:not(.menu-title):not(:empty)) > :where(:not(ul).active),
+  .menu :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):active) {
+    --tw-bg-opacity: 1;
+    background-color: #e3bc85;
+    --tw-text-opacity: 1;
+    color: black;
+}
+.menu :where(li:empty) {
+    margin-left: 1rem/* 16px */;
+    margin-right: 1rem/* 16px */;
+    margin-top: 0.5rem/* 8px */;
+    margin-bottom: 0.5rem/* 8px */;
+    height: 1px;
+    background-color: beige;
+    --tw-bg-opacity: 0.1;
+}
+
+.linea{
+  color: rgb(129, 125, 125);
+  margin-bottom: 25px;
+  margin-top: 25px;
+  width: 100px;
+  margin-left: 8px;
+}
