@@ -15,7 +15,7 @@ const Service_principal = () => {
 
     return (
         <div className='w-full lg:w-[1200px] pb-10 m-2 mx-auto'>
-            <h1 className='font-secundario text-neutral-400 pt-20 m-2 text-[3.33rem]'>SARA. SERVICES</h1>
+            <h1 className='font-secundario text-neutral-400 pt-20 m-2 text-[3.33rem]'>SERVICES.</h1>
             <h2 className='font-secundario text-neutral-400 m-2 text-lg mt-5'>CHECK OUT OUR AWESOME SERVICES</h2>
             <hr class='linea' />
             <p className='font-secundario m-2 text-md w-full'>This hotel offers a wide range of services and amenities designed to enhance the guest experience and make their stay as comfortable and enjoyable as possible. From on-site dining options to fitness facilities, there is something for everyone at this hotel.
